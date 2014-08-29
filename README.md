@@ -17,8 +17,8 @@ Auto-generated code files are saved in this folder. Auto-generated code files in
 3. /libs  
 Android support library is saved here. Only one file name "android-support-v4.jar" is included.
   
-4. /res 
+4. /res    
 This folder includes resource files and layout files of the project. Resource files are pictures in this project and layout files mostly are .xml files.
 
-5. /src 
+5. /src    
 My source code files are here. They are arraged by packages. Only one java file is in this folder which is "MainActivity.java".
