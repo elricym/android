@@ -8,7 +8,7 @@ Findings in the project folder:
 
 Five important folders are included, 
 
-1. /bin: 
+1. /bin:    
 This folder stores program files. Class files (intermediate code) are arranged by packeges and other kinds of resource files like pictures store under /bin/res. The complete app package (.apk) is also stored in this folder.
 
 2. /gen
