@@ -6,34 +6,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.myfirstapp.MainActivity" >
-
-    <TextView
-        android:id="@+id/helloWorld"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_marginLeft="33dp"
-        android:layout_toRightOf="@+id/button1"
-        android:text=""
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+    tools:context="com.example.dayactivity.MainActivity" >
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Click Me!" />
+        android:layout_marginTop="17dp"
+        android:text="Get Time!" />
 
     <TextView
-        android:id="@+id/logView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="28dp"
-        android:text="Activities:\n" />
-
+        android:layout_marginTop="23dp"
+        android:fontFamily="Courier new"
+        android:text="Your time will be shown here."
+        android:textSize="8sp"
+        android:textStyle="normal" />
+   
 </RelativeLayout>
